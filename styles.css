@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+}
+
+nav {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.js-documentation {
+  font-size: 30px;
+  padding: 0 auto;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+}
+
